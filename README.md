@@ -66,8 +66,8 @@ Download and install deb package from scala-lang.org:
 
 ```bash
 $ cd ~/Downloads
-$ wget http://www.scala-lang.org/files/archive/scala-2.11.7.deb
-$ sudo dpkg -i scala-2.11.7.deb
+$ wget http://www.scala-lang.org/files/archive/scala-2.11.8.deb
+$ sudo dpkg -i scala-2.11.8.deb
 ```
 
 ***Note:*** *You may want to check if there's a more recent version. At the time of this writing, 2.11.7 was the most recent stable release. Visit the [Scala download page](http://www.scala-lang.org/download/all.html) to check for updates.* 
@@ -109,15 +109,15 @@ $ sudo pip install py4j
 ###2.1 | Download and extract source tarball
 ```bash
 $ cd ~/Downloads
-$ wget http://d3kbcqa49mib13.cloudfront.net/spark-1.6.0.tgz
-$ tar xvf spark-1.6.0.tgz
+$ wget http://d3kbcqa49mib13.cloudfront.net/spark-2.0.1-bin-hadoop2.7.tgz
+$ tar xvf spark-2.0.1-bin-hadoop2.7.tgz
 ```
 ***Note:*** *Also here, you may want to check if there's a more recent version: visit the [Spark download page](http://spark.apache.org/downloads.html)*.
 
 <div id='spark-compile'/></div>
 ###2.2 | Compile source
 ```bash
-$ cd ~/Downloads/spark-1.6.0
+$ cd ~/Downloads/spark-2.0.1-bin-hadoop2.7
 $ sbt/sbt assembly
 ```
 
